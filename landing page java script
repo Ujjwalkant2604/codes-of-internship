@@ -1,0 +1,12 @@
+// scripts.js
+
+document.addEventListener("DOMContentLoaded", () => {
+    const ctaButton = document.querySelector(".cta-button");
+
+    ctaButton.addEventListener("click", (event) => {
+        event.preventDefault();
+        document.querySelector(ctaButton.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+});
