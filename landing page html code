@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bike World</h1>
+        <p>Ride your passion</p>
+        <a href="#main-content" class="cta-button">Explore Bikes</a>
+    </header>
+    <main id="main-content">
+        <section class="content">
+            <h2>Our Bikes</h2>
+            <div class="bike-gallery">
+                <div class="bike">
+                    <img src="mountain.bikes.jpg" alt="Mountain Bike">
+                    <p>Mountain Bike</p>
+                </div>
+                <div class="bike">
+                    <img src="road.jpg" alt="Road Bike">
+                    <p>Road Bike</p>
+                </div>
+                <div class="bike">
+                    <img src="bike.1.jpg" alt="Hybrid Bike">
+                    <p>Hybrid Bike</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="landing.js"></script>
+</body>
+</html>
 
